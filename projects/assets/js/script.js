@@ -60,31 +60,26 @@ const toggleButton = document.getElementById('toggleButton');
     });
 
 //scroll for navigation menus mobile
-document.querySelector('.about-button').addEventListener('click', function() {
+
+document.querySelector('.mobile-about-button').addEventListener('click', function() {
     // Scroll to the Body panel
     var viewAboutPart = document.querySelector('.nav-about');
     viewAboutPart.scrollIntoView({ behavior: 'smooth' });
 });
 
-document.querySelector('.button-home').addEventListener('click', function() {
-    // Scroll to the Body panel
-    var viewAboutPart = document.querySelector('.nav-home');
-    viewAboutPart.scrollIntoView({ behavior: 'smooth' });
-});
-
-document.querySelector('.services-button').addEventListener('click', function() {
+document.querySelector('.mobile-services-button').addEventListener('click', function() {
     // Scroll to the Body panel
     var viewAboutPart = document.querySelector('.nav-services');
     viewAboutPart.scrollIntoView({ behavior: 'smooth' });
 });
 
-document.querySelector('.contact-button').addEventListener('click', function() {
+document.querySelector('.mobile-contact-button').addEventListener('click', function() {
     // Scroll to the Body panel
     var viewAboutPart = document.querySelector('.nav-contact');
     viewAboutPart.scrollIntoView({ behavior: 'smooth' });
 });
 
-document.querySelector('.help-button').addEventListener('click', function() {
+document.querySelector('.mobile-help-button').addEventListener('click', function() {
     // Scroll to the Body panel
     var viewAboutPart = document.querySelector('.nav-help');
     viewAboutPart.scrollIntoView({ behavior: 'smooth' });
