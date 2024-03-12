@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Cyril Perez</title>
+    <link rel="stylesheet" href="projects/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="all-container">
+
+      <header class="header-panel">
+        <div class="header-menus">
+            <div class="home">
+                <button id="homebtnID" class="button-home clicked">Home</button>
+            </div>
+            <div class="menus">
+              <button id="aboutbtnID" class="about-button clicked">About</button>
+              <button id="servicesbtnID" class="services-button clicked">Services</button>
+              <button id="contactbtnID" class="contact-button clicked">Contact</button>
+              <button id="helpbtnID" class="help-button clicked">Help</button>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars fa-2x hamburger" id="toggleButton" onclick="toggleMenu()"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="navigation-menu-mobile">
+      <div class="nav-buttons">
+          <button class="mobile-about-button clicked"><u>About</u></button>
+          <button class="mobile-services-button clicked"><u>Skills</u></button>
+          <button class="mobile-contact-button clicked"><u>Contact</u></button>
+          <button class="mobile-help-button clicked"><u>Help</u></button>
+      </div>
+  </div>
+      
+     <!--Home Part-->
+      <div class="home-below-container">
+        <h id="homeID" class="nav-home">home</h>
+        <div class="home-panel">
+
+          <div class="introduction-panel">
+            <h1 class="intro-title hopIn">
+              <small class="class-hi">Hello there</small>,<br>
+              <int>I'm <u>Cyril Perez</u></int>.<br>
+              <int>A College Student</int>.
+            </h1>
+          </div>
+
+          <img class="profile-pic hopIn" src="projects/assets/images/my-profile.png" type="image">
+        </div>
+      </div>
+
+      <!--About Part-->
+      <div class="about-below-container">
+        <h id="aboutID" class="nav-about">about</h>
+        <div class="about-panel">
+
+          <img class="about-picture" src="projects/assets/images/me-with-motor.png">
+         
+         <div class="about-info-panel">
+           <h class="about-title menu-titles"><bold>About me</bold></h>
+           <p class="about-info">
+            -I'm a computer engineer with a passion for software 
+            development and programming, offering services similar 
+            to Maxim in the Philippines. I'm dedicated to designing 
+            and optimizing computer systems, developing software solutions, 
+            and delivering top-notch services to my clients. I approach every 
+            challenge with humility, always eager to learn and improve. In my 
+            free time, I enjoy exploring new technologies and working on personal 
+            projects to stay at the forefront of the ever-evolving tech industry.
+           </p>
+           
+         </div>
+        </div>        
+      </div>   
+      
+      <!--Services Part-->
+      <div class="services-below-container">
+        <h id="servicesID" class="nav-services">services</h>
+        <div class="services-panel">
+          <div class="services">
+            <h1 class="services-title menu-titles">My Services</h1>
+            <p class="services-info">
+            -I excel in graphics design and motor maximization,
+            pushing the boundaries of what's possible in both fields.
+            With a focus on optimizing performance and enhancing capabilities,
+            I excel in creating stunning visual experiences and maximizing motor
+            efficiency. My expertise includes crafting innovative designs, optimizing
+            motor performance, and pushing the limits of what's achievable in both
+            graphics design and motor maximization. Whether you need cutting-edge
+            graphics or advanced motor solutions, I bring a unique blend of creativity
+            and technical expertise to deliver outstanding results.
+            </p>
+          </div>
+          
+          <div class="myservices-panel">
+            <div class="service-maxim">
+              <h class="df-title services-titles">
+              Maxim<br>Rides and Delivery
+              </h>
+              <p class="definition services-info-by-title">
+              -Need a ride or food delivery in the Philippines?
+              I offer services similar to Maxim, providing convenient 
+              transportation and food delivery to your doorstep. Whether 
+              you're heading to work, running errands, or craving your 
+              favorite meal, I'm here to help. With a focus on efficiency 
+              and customer satisfaction, I strive to make your experience
+              seamless and enjoyable.</p>
+              <div class="circle-buttons-panel">
+                <button class="circle-btn-maxim"></button>
+                <button class="circle-btn-graphic"></button>
+                <button class="circle-btn-hardware"></button>
+              </div>
+            </div>
+            
+            <div class="service-software">
+              <h class="services-titles">
+                Graphic Designing
+              </h>
+              <p class="services-info-by-title">
+                -Looking to enhance your brand's visual identity? I specialize 
+                in using Photoshop and animation apps to bring your vision to 
+                life. From creating logos to designing digital animations, I'm 
+                passionate about delivering visually stunning solutions that resonate 
+                with your audience and help your brand stand out. Let's work together 
+                to elevate your brand's presence in a humble and impactful way.
+              </p>
+            </div>
+            
+            <div class="service-programming">
+              <h class="services-titles">
+                Hardware Troubleshooting
+              </h>s
+              <p class="services-info-by-title">
+                -Struggling with hardware issues? I specialize in hardware troubleshooting, 
+                offering comprehensive services to ensure your hardware runs smoothly. 
+                Whether you're facing performance issues or need custom solutions, I'm here to 
+                help you harness the power of technology effectively. Let's work together to find 
+                humble solutions to your hardware challenges.
+              </p>
+            </div>
+          </div>
+          
+        </div>        
+      </div>
+      
+      <div class="contact-below-container">
+        <h id="contactID" class="nav-contact">contact</h>
+        <div class="contact-panel">
+          <div class="contact-ttle-panel">
+            <h class="contact-title menu-titles">Contact Me</h>
+          </div>
+          
+          <div class="contact-info-panel">
+              <img class="contact-pic" src="projects/assets/images/contact-photo.png" type="image">
+            <div class="textfields-panel">
+              <input class="textfields" type="text" id="name" name="name" placeholder="Enter your name">
+              <input class="textfields" type="text" id="email" name="name" placeholder="Enter your email">
+              <div class="details-panel">
+                <input class="details-field small-field" type="time" id="time" name="time" placeholder="Time">
+                <input class="details-field small-field" type="date" id="date" name="date" placeholder="Date">
+              </div>
+              <textarea class="textarea tarea-size" type="text" id="message" name="name" placeholder="Enter your message"></textarea>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+      <div class="help-below-container">
+        <h id="helpID" class="nav-help"></h>
+        <div class="help-panel">
+          <div class="help-ttle-panel">
+            <h class="help-title menu-titles">
+              Help
+            </h>
+          </div>
+
+          <div class="help-info-panel">
+            <div class="help-info-panel">
+              <p class="help-infos">
+                  <strong>Home Section:</strong><br>
+                  Click on the "Home" button in the header or the "Home" button in the mobile navigation menu to scroll to the home section. This section includes a brief introduction and a profile picture.
+              </p>
+              <p class="help-infos">
+                  <strong>About Section:</strong><br>
+                  Click on the "About" button in the header or the "About" button in the mobile navigation menu to scroll to the about section. This section contains information about you, including your background, skills, and passion for technology.
+              </p>
+              <p class="help-infos">
+                  <strong>Services Section:</strong><br>
+                  Click on the "Services" button in the header or the "Skills" button in the mobile navigation menu to scroll to the services section. Here, you can learn about the services you offer, such as graphic design, motor maximization, and hardware troubleshooting.
+              </p>
+              <p class="help-infos">
+                  <strong>Contact Section:</strong><br>
+                  Click on the "Contact" button in the header or the "Contact" button in the mobile navigation menu to scroll to the contact section. This section includes a form where you can enter your name, email, message, and other details to get in touch with you.
+              </p>
+              <p class="help-infos">
+                  <strong>Help Section:</strong><br>
+                  Click on the "Help" button in the header or the "Help" button in the mobile navigation menu to scroll to the help section. This section provides additional information or support if needed.
+              </p>
+              <p class="help-infos">
+                  <strong>Navigation Menu:</strong><br>
+                  You can also use the hamburger icon in the header to toggle the mobile navigation menu, which provides quick access to different sections of the website.
+              </p>
+          </div>
+          
+          </div>
+        </div> 
+      </div>
+      
+    </div>
+    <script src="projects/assets/js/script.js"></script>
+</body>
+</html>
